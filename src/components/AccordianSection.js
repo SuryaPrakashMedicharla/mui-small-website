@@ -23,7 +23,7 @@ export default function AccordianSection() {
           <Typography component="span" sx={{ width: '33%', flexShrink: 0 }}>
             General settings
           </Typography>
-          <Typography component="span" sx={{ color: 'text.secondary' }}>
+          <Typography component="span" sx={{ color: 'blue' }}>
             I am an accordion
           </Typography>
         </AccordionSummary>
@@ -43,7 +43,7 @@ export default function AccordianSection() {
           <Typography component="span" sx={{ width: '33%', flexShrink: 0 }}>
             Users
           </Typography>
-          <Typography component="span" sx={{ color: 'text.secondary' }}>
+          <Typography component="span" sx={{ color: 'blue' }}>
             You are currently not an owner
           </Typography>
         </AccordionSummary>
@@ -64,7 +64,7 @@ export default function AccordianSection() {
           <Typography component="span" sx={{ width: '33%', flexShrink: 0 }}>
             Advanced settings
           </Typography>
-          <Typography component="span" sx={{ color: 'text.secondary' }}>
+          <Typography component="span" sx={{ color: 'blue' }}>
             Filtering has been entirely disabled for whole web server
           </Typography>
         </AccordionSummary>
